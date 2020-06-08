@@ -1,0 +1,120 @@
+<html>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+    
+      <meta charset="utf-8">
+    
+      <title>instagram story</title>
+    
+      <style>
+     
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        font-family: 'Rubik', sans-serif;
+        background: #0C0F16;
+
+    }
+    imd {
+        pointer-events: none;
+    }
+    .ig-story-container ul {
+        list-style-type: none;
+        user-select: none;
+        display: flex;
+        overflow-y: auto;
+    }
+    .ig-story-container ul {
+        padding: 20px 0;
+
+    }
+    .ig-story-container ul li {
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .ig-story-container ul li:first-child {
+        padding-left: 20px;
+    }
+    .ig-story-container ul li:last-child {
+        padding-right: 20px;
+    }
+    .ig-story-container ul li .pp {
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 255);
+        padding: 1px;
+        position: relative;
+    }
+    .ig-story-container ul li.has-story .pp {
+        padding: 2px;
+        background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    
+    }
+    .ig-story-container ul li .pp img {
+        padding: 4px;
+        background: currentColor;
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+
+    }
+    .ig-story-container ul li span {
+        color: rgba(255, 255, 255, 255);
+        font-weight: 300;
+        font-size: 14px;
+        text-align: center;
+        max-width: 85px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-top: 5px;
+
+    }
+
+
+    
+    
+        </style>
+    
+    </head>
+    <body>
+
+        <div class="ig-story-container">
+            <ul>
+                <li>
+                    <div class="pp">
+                        <img src="C:\Users\souad beguenane\Desktop\Nouveau dossier (6)\Nouveau dossier\3.jpg" alt="">                       
+                    </div>
+                    <span class="user">Story</span>
+                </li>
+                <li>
+                    <div class="pp">
+                        <img src="C:\Users\souad beguenane\Desktop\Nouveau dossier (6)\Nouveau dossier\1.png" alt="">                       
+                    </div>
+                    <span class="user">Souad </span>
+                </li>
+                <li>
+                    <div class="pp">
+                        <img src="C:\Users\souad beguenane\Desktop\Nouveau dossier (6)\Nouveau dossier\2.jpg" alt="">                       
+                    </div>
+                    <span class="user">Beguenane</span>
+                </li>
+               
+            </ul>
+
+
+
+
+        </div>
+        
+    </body>
+</html>
